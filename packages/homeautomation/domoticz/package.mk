@@ -2,7 +2,7 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="domoticz"
-PKG_VERSION="2020.1"
+PKG_VERSION="2020.2.11995"
 PKG_SHA256="[sha256 hash of the source file, downloaded from PKG_URL]"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
