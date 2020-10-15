@@ -6,7 +6,7 @@ PKG_VERSION=""
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.openelec.tv"
 PKG_URL=""
-PKG_DEPENDS_TARGET="toolchain gdb edid-decode memtester"
+PKG_DEPENDS_TARGET="toolchain"
 PKG_SECTION="virtual"
 PKG_LONGDESC="debug is a Metapackage for installing debugging tools"
 
@@ -26,5 +26,5 @@ if build_with_debug && [ "$VALGRIND" = "yes" ]; then
 fi
 
 if [ "$REMOTE_GDB" = "yes" ]; then
-  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET gdb:host"
+  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET"
 fi

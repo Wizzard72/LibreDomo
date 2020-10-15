@@ -8,7 +8,7 @@ PKG_SHA256="5630751adec7025b8ef955af4d141d00d252a985769f51b4059e5affa3d39d63"
 PKG_LICENSE="LGPL2.1"
 PKG_SITE="https://gnutls.org"
 PKG_URL="https://www.gnupg.org/ftp/gcrypt/gnutls/v3.6/$PKG_NAME-$PKG_VERSION.tar.xz"
-PKG_DEPENDS_TARGET="toolchain libidn2 nettle zlib"
+PKG_DEPENDS_TARGET="toolchain nettle zlib"
 PKG_LONGDESC="A library which provides a secure layer over a reliable transport layer."
 
 PKG_CONFIGURE_OPTS_TARGET="--disable-doc \
