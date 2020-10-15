@@ -507,7 +507,7 @@ if [ "${TARGET}" = "target" -o "${TARGET}" = "init" ]; then
 fi
 
 if [ -n "${INSTALL}" -a -d "${INSTALL}" ]; then
-  echo "INFO_PKG_NAME=\"${PKG_NAME}\"" > "${INSTALL}/.libreelec-package"
+  echo "INFO_PKG_NAME=\"${PKG_NAME}\"" > "${INSTALL}/.libredomo-package"
 fi
 
 cd ${ROOT}
