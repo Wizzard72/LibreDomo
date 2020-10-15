@@ -25,15 +25,15 @@ if [ -n "${PKG_DEPENDS_UNPACK}" ]; then
   done
 fi
 
-STAMP="${PKG_BUILD}/.libreelec-unpack"
+STAMP="${PKG_BUILD}/.libredomo-unpack"
 
 mkdir -p ${BUILD}/build
 
 # Perform a wildcard match on the package to ensure old versions are cleaned too
 PKG_DEEPHASH=
 for i in ${BUILD}/build/${PKG_NAME}-*; do
-  if [ -d ${i} -a -f "${i}/.libreelec-unpack" ] ; then
-    . "${i}/.libreelec-unpack"
+  if [ -d ${i} -a -f "${i}/.libredomo-unpack" ] ; then
+    . "${i}/.libredomo-unpack"
     if [ "${STAMP_PKG_NAME}" = "${PKG_NAME}" ]; then
       [ -z "${PKG_DEEPHASH}" ] && PKG_DEEPHASH=$(calculate_stamp)
       if [ ! "${PKG_DEEPHASH}" = "${STAMP_PKG_DEEPHASH}" ] ; then
@@ -102,7 +102,7 @@ if [ -d "${SOURCES}/${PKG_NAME}" -o -d "${PKG_DIR}/sources" ] || pkg_call_exists
   fi
 
   # Add a tag to the unpacked folder before transferring into the shared build folder
-  echo "INFO_PKG_NAME=\"${PKG_NAME}\"" > "${PKG_UNPACK_DIR}/.intermediate/.libreelec-package"
+  echo "INFO_PKG_NAME=\"${PKG_NAME}\"" > "${PKG_UNPACK_DIR}/.intermediate/.libredomo-package"
 
   # Restore original PKG_BUILD, and transfer the unpacked folder
   PKG_BUILD="${PKG_BUILD_ORIG}"
@@ -207,7 +207,7 @@ pkg_call_finish
 
 if [ "${PKG_SECTION}" != "virtual" ]; then
   mkdir -p "${PKG_BUILD}"
-  echo "INFO_PKG_NAME=\"${PKG_NAME}\"" > "${PKG_BUILD}/.libreelec-package"
+  echo "INFO_PKG_NAME=\"${PKG_NAME}\"" > "${PKG_BUILD}/.libredomo-package"
 
   PKG_DEEPHASH=$(calculate_stamp)
   for i in PKG_NAME PKG_DEEPHASH; do
