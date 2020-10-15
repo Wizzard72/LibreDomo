@@ -12,10 +12,10 @@ md5sumCheck() {
     if [ "$?" = "1" ]; then
       echo "#######################################################"
       echo "#                                                     #"
-      echo "# LibreELEC failed md5 check - Installation will quit #"
+      echo "# LibreDOMO failed md5 check - Installation will quit #"
       echo "#                                                     #"
       echo "#    Your original download was probably corrupt.     #"
-      echo "#   Please visit libreelec.tv and get another copy    #"
+      echo "#                                                     #"
       echo "#                                                     #"
       echo "#######################################################"
       exit 1
