@@ -11,16 +11,16 @@
 
 # Welcome Message for e.g. SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="#                 LibreELEC                  #"
-  GREETING2="#            https://libreelec.tv            #"
+  GREETING1="#                 LibreDOMO                  #"
+  GREETING2="#            https://libredomo.todo          #"
   GREETING3="##############################################"
   GREETING4=""
 
 # Root password to integrate in the target system
-  ROOT_PASSWORD="libreelec"
+  ROOT_PASSWORD="libredomo"
 
 # Partition labels for USB/SD installation media
-  DISTRO_BOOTLABEL="LIBREELEC"
+  DISTRO_BOOTLABEL="LIBREDOMO"
   DISTRO_DISKLABEL="STORAGE"
 
 
