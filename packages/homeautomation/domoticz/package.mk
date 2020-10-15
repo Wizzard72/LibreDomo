@@ -2,14 +2,14 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="domoticz"
-PKG_VERSION="2020.2.11995"
-PKG_SHA256="[sha256 hash of the source file, downloaded from PKG_URL]"
+PKG_VERSION="2020.2"
+PKG_SHA256="a02f589daad4eebff1f5e93815c1acd1864cf068f8f5c3185bcdd20207ae395e"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="https://www.domoticz.com"
-PKG_URL="https://releases.domoticz.com/releases/release/domoticz_linux_armv7l.tgz"
+PKG_URL="https://github.com/domoticz/domoticz/archive/$PKG_VERSION.tar.gz"
 # PKG_MAINTAINER="John Doe" # Full name or forum/GitHub nickname, if you want to be identified as the addon maintainer
-PKG_DEPENDS_TARGET="boost toolchain zlib openssl]"
+PKG_DEPENDS_TARGET="boost toolchain openssl]"
 PKG_SECTION="homeautomation"
 PKG_SHORTDESC="Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more."
 PKG_LONGDESC="Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more."
