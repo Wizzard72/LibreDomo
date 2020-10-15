@@ -3,7 +3,7 @@
 
 PKG_NAME="mosquitto"
 PKG_VERSION="1.6.12"
-PKG_SHA256="[sha256 hash of the source file, downloaded from PKG_URL]"
+PKG_SHA256="548d73d19fb787dd0530334e398fd256ef3a581181678488a741a995c4f007fb"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="https://mosquitto.org"
