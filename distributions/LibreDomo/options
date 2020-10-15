@@ -1,10 +1,10 @@
 ### DISTRO INFORMATION ###
 
 # Name of the Distro to build (full name, without special characters)
-  DISTRONAME="LibreELEC"
+  DISTRONAME="LibreDOMO"
 
 # short project description
-  DESCRIPTION="LibreELEC is a fast and user-friendly Kodi Entertainment Center distribution."
+  DESCRIPTION="LibreDOMO is a fast and secure home automation system based on domoticz."
 
 
 ### USER INTERFACE SETTINGS ###
