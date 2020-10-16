@@ -3,7 +3,7 @@
 
 PKG_NAME="openzwave"
 PKG_VERSION="1.6"
-PKG_SHA256="[sha256 hash of the source file, downloaded from PKG_URL]"
+PKG_SHA256="3b11dffa7608359c8c848451863e0287e17f5f101aeee7c2e89b7dc16f87050b"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.openzwave.net/"
