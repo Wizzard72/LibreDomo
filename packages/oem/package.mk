@@ -1,10 +1,11 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 # Copyright (C) 2009-2016 Stephan Raue (stephan@openelec.tv)
+# Copyright (C) 2020-present Team LibreDomo
 
 PKG_NAME="oem"
 PKG_VERSION=""
 PKG_LICENSE="various"
-PKG_SITE="http://www.libreelec.tv"
+PKG_SITE="http://www.libredomo.todo"
 PKG_URL=""
 PKG_DEPENDS_TARGET="toolchain $PROJECT"
 PKG_SECTION="virtual"
