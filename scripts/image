@@ -283,7 +283,7 @@ if [ "${1}" = "release" -o "${1}" = "mkimage" -o "${1}" = "noobs" ]; then
   echo "${TARGET_VERSION}" > ${RELEASE_DIR}/RELEASE
 
   if [ ! "${HOMEAUTOMATION}" = "no" ]; then
-    echo "Kodi commit: $(get_pkg_version ${HOMEAUTOMATION})" >> ${RELEASE_DIR}/RELEASE
+    echo "Home Automation commit: $(get_pkg_version ${HOMEAUTOMATION})" >> ${RELEASE_DIR}/RELEASE
   fi
 
   mkdir -p ${RELEASE_DIR}/licenses
