@@ -56,8 +56,8 @@ fi
 
 DISTRO=${DISTRO,,}
 
-deps=(wget bash bc gcc g++ sed patch libssl-dev lsdiff tar bzip2 gzip xz perl gawk gperf zip unzip diff lzop make file)
-deps_pkg=(wget bash bc gcc g++ sed patch libssl-dev patchutils tar bzip2 gzip xz-utils perl gawk gperf zip unzip diffutils lzop make file)
+deps=(wget bash bc gcc sed patch libssl-dev lsdiff tar bzip2 gzip xz perl gawk gperf zip unzip diff lzop make file)
+deps_pkg=(wget bash bc gcc sed patch libssl-dev patchutils tar bzip2 gzip xz-utils perl gawk gperf zip unzip diffutils lzop make file)
 
  #for domoticz g++ libssl-dev git libcurl4-gnutls-dev libusb-dev python3-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev
 
@@ -68,7 +68,7 @@ perl_mod=(JSON XML::Parser Thread::Queue Parse::Yapp::Driver)
 
 case "${DISTRO}" in
     fedora|centos|rhel)
-      deps+=(g++ mkfontscale mkfontdir bdftopcf xsltproc java python3 rpcgen)
+      deps+=(g++ mkfontscale mkfontdir bdftopcf xsltproc java python3 rpcgen libssl-dev)
       deps_pkg+=(gcc-c++ xorg-x11-font-utils xorg-x11-font-utils xorg-x11-font-utils libxslt java-1.7.0-openjdk python3 rpcgen)
       if [[ ! $(rpm -qa glibc-static) ]]; then
         deps+=(glibc-static)
