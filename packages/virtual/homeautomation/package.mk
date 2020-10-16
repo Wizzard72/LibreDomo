@@ -20,7 +20,7 @@ if [ "$HOMEAUTOMATION" = "domoticz" ]; then
                                           pycryptodome"
 
 # other packages
-  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET xmlstarlet"
+#  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET xmlstarlet"
 
 
 fi
