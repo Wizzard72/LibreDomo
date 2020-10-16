@@ -69,96 +69,27 @@
   DEBUG_TTY="/dev/tty3"
 
 
-### KODI SETTINGS ###
-# Mediacenter to use (kodi / no)
-  MEDIACENTER="kodi"
-
-# Skins to install (Estuary)
-# Space separated list is supported,
-# e.g. SKINS="Estuary"
-  SKINS="Estuary"
-
-# Default Skin (Estuary)
-  SKIN_DEFAULT="Estuary"
-
-# install extra subtitle Fonts for KODI (yes / no)
-  KODI_EXTRA_FONTS="yes"
+### Home Automation SETTINGS ###
+# Mediacenter to use (domoticz / no)
+  HOMEAUTOMATION="domoticz"
 
 # build and install PulseAudio support (yes / no)
   PULSEAUDIO_SUPPORT="yes"
 
-# build and install with BluRay support (yes / no)
-  KODI_BLURAY_SUPPORT="yes"
-
-# build and install with BD+ support
-# (BD+ decryption support in KODI) (yes / no)
-  BLURAY_BDPLUS_SUPPORT="yes"
-
-# build and install with AACS support
-# (BD decryption support in KODI) (yes / no)
-  BLURAY_AACS_SUPPORT="yes"
-
-# build and install with DVDCSS support
-# (DVD decryption support in KODI) (yes / no)
-  KODI_DVDCSS_SUPPORT="yes"
-
 # build and install bluetooth support (yes / no)
   BLUETOOTH_SUPPORT="yes"
-
-# build and install with KODI webfrontend (yes / no)
-  KODI_WEBSERVER_SUPPORT="yes"
 
 # build and install Avahi (Zeroconf) daemon (yes / no)
   AVAHI_DAEMON="yes"
 
-# build with UPnP support (yes / no)
-  KODI_UPNP_SUPPORT="yes"
 
-# build with MySQL support (mariadb / none)
-  KODI_MYSQL_SUPPORT="mariadb"
-
-# build xbmc with optical drive support (yes / no)
-  KODI_OPTICAL_SUPPORT="yes"
-
-# build with AirPlay support (stream videos from iDevices to KODI) (yes / no)
-  KODI_AIRPLAY_SUPPORT="yes"
-
-# build with AirTunes support (stream music from iDevices to KODI) (yes / no)
-  KODI_AIRTUNES_SUPPORT="yes"
-
-# build with libnfs support (mounting nfs shares with KODI) (yes / no)
-  KODI_NFS_SUPPORT="yes"
-
-# build with Samba Client support (mounting SAMBA shares with KODI) (yes / no)
-  KODI_SAMBA_SUPPORT="yes"
-
-
-### KODI ADDONS ###
-
-# Distribution Specific source location
-  DISTRO_MIRROR="http://sources.libreelec.tv/mirror"
-  DISTRO_SRC="http://sources.libreelec.tv/$LIBREELEC_VERSION"
-
-# Addon Server Url
-  ADDON_SERVER_URL="https://addons.libreelec.tv"
-
-# set the default addon project
-  ADDON_PROJECT="${DEVICE:-$PROJECT}"
-
-# Settings package name - blank if not required
-  DISTRO_PKG_SETTINGS="LibreELEC-settings"
-  DISTRO_PKG_SETTINGS_ID="service.libreelec.settings"
+### Home Automation ADDONS ###
 
 
 ### ADDITIONAL PROGRAMS / FUNCTIONS ###
 
 # Testpackages for development (yes / no)
   TESTING="no"
-
-# Configure debug groups (space delimited key=value pairs, with each value comma-delimited) and default group when DEBUG=yes
-# Use ! or - prefix to prevent a dependent package from being built with debug. Add + suffix to build dependenencies with debug.
-  DEBUG_GROUPS="kodi+=kodi+,kodi-platform+,p8-platform+,!mesa"
-  DEBUG_GROUP_YES="kodi+"
 
 # wireless daemon to use (wpa_supplicant/iwd)
   WIRELESS_DAEMON="wpa_supplicant"
@@ -212,7 +143,7 @@
   INSTALLER_SUPPORT="yes"
 
 # Windowmanager to use (fluxbox / none)
-  WINDOWMANAGER="fluxbox"
+  WINDOWMANAGER="nonne"
 
 # Xorg Graphic drivers to use (all / i915,i965,r200,r300,r600,nvidia)
 # Space separated list is supported,
@@ -222,14 +153,8 @@
 # build and install remote support (yes / no)
   REMOTE_SUPPORT="yes"
 
-# IR remote keymaps supported in default config
-  IR_REMOTE_KEYMAPS="rc6_mce xbox_360 xbox_one"
-
-# build and install Joystick support (yes / no)
-  JOYSTICK_SUPPORT="yes"
-
 # build and install CEC adapter support (yes / no)
-  CEC_SUPPORT="yes"
+  CEC_SUPPORT="no"
 
 # build and install CEC framework support (yes / no)
   CEC_FRAMEWORK_SUPPORT="no"
