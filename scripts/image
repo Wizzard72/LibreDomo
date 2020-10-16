@@ -282,8 +282,8 @@ if [ "${1}" = "release" -o "${1}" = "mkimage" -o "${1}" = "noobs" ]; then
   cp ${ROOT}/CHANGELOG* ${RELEASE_DIR}
   echo "${TARGET_VERSION}" > ${RELEASE_DIR}/RELEASE
 
-  if [ ! "${MEDIACENTER}" = "no" ]; then
-    echo "Kodi commit: $(get_pkg_version ${MEDIACENTER})" >> ${RELEASE_DIR}/RELEASE
+  if [ ! "${HOMEAUTOMATION}" = "no" ]; then
+    echo "Kodi commit: $(get_pkg_version ${HOMEAUTOMATION})" >> ${RELEASE_DIR}/RELEASE
   fi
 
   mkdir -p ${RELEASE_DIR}/licenses
