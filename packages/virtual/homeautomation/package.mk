@@ -15,9 +15,9 @@ if [ "$HOMEAUTOMATION" = "domoticz" ]; then
   PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET"
 
 # some python stuff needed for various addons
-  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET Pillow \
-                                          simplejson \
-                                          pycryptodome"
+#  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET Pillow \
+#                                          simplejson \
+#                                          pycryptodome"
 
 # other packages
 #  PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET xmlstarlet"
