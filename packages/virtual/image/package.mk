@@ -12,7 +12,7 @@ PKG_LONGDESC="Root package used to build and create complete image"
 [ ! "$DISPLAYSERVER" = "no" ] && PKG_DEPENDS_TARGET+=" $DISPLAYSERVER"
 
 # Multimedia support
-#[ ! "$MEDIACENTER" = "no" ] && PKG_DEPENDS_TARGET+=" mediacenter"
+[ ! "$HOMEAUTOMATION" = "no" ] && PKG_DEPENDS_TARGET+=" homeautomation"
 
 # Sound support
 [ "$ALSA_SUPPORT" = "yes" ] && PKG_DEPENDS_TARGET+=" alsa"
