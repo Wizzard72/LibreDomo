@@ -9,7 +9,6 @@ PKG_LICENSE="GPL"
 PKG_SITE="https://www.domoticz.com"
 PKG_URL="https://github.com/domoticz/domoticz/archive/$PKG_VERSION.tar.gz"
 # PKG_MAINTAINER="John Doe" # Full name or forum/GitHub nickname, if you want to be identified as the addon maintainer
-PKG_DEPENDS_TARGET="boost toolchain openssl]"
 PKG_SECTION="homeautomation"
 PKG_SHORTDESC="Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more."
 PKG_LONGDESC="Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more."
