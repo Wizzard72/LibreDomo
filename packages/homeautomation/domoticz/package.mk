@@ -1,5 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
-# Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
+# Copyright (C) 2018-2020 Team LibreELEC (https://libreelec.tv)
+# Copyright (C) 2020-present Team LibreDOMO (https://libredomo.todo)
 
 PKG_NAME="domoticz"
 PKG_VERSION="2020.2"
