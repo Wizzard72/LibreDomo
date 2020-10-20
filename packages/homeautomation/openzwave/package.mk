@@ -15,6 +15,7 @@ PKG_SECTION="homeautomation"
 PKG_SHORTDESC="Our goal is to create free software library that interfaces with Z-Wave controllers, allowing anyone to create applications to control devices on a Z-Wave network, without requiring in-depth knowledge of the Z-Wave protocol. OpenZWave is not about creating Z-Wave devices (nodes). The project consists of the main library, written in C++ and wrappers and supporting projects, to interface different languages and protocol(s).]"
 PKG_LONGDESC="Our goal is to create free software library that interfaces with Z-Wave controllers, allowing anyone to create applications to control devices on a Z-Wave network, without requiring in-depth knowledge of the Z-Wave protocol. OpenZWave is not about creating Z-Wave devices (nodes). The project consists of the main library, written in C++ and wrappers and supporting projects, to interface different languages and protocol(s)."
 # PKG_TOOLCHAIN="auto"
+PKG_TOOLCHAIN="manual"
 
 pre_make_target() {
   export CFLAGS=""
