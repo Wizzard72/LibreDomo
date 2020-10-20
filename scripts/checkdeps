@@ -69,8 +69,8 @@ perl_mod=(JSON XML::Parser Thread::Queue Parse::Yapp::Driver)
 
 case "${DISTRO}" in
     fedora|centos|rhel)
-      deps+=(g++ mkfontscale mkfontdir bdftopcf xsltproc java python3 rpcgen libssl-dev libcurl4-gnutls-dev libusb-dev python3-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev)
-      deps_pkg+=(gcc-c++ xorg-x11-font-utils xorg-x11-font-utils xorg-x11-font-utils libxslt java-1.7.0-openjdk python3 rpcgen libssl-dev libcurl4-gnutls-dev libusb-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev)
+      deps+=(g++ mkfontscale mkfontdir bdftopcf xsltproc java python3 rpcgen libssl-dev libcurl4-gnutls-dev libusb-dev python3-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev libudev-dev)
+      deps_pkg+=(gcc-c++ xorg-x11-font-utils xorg-x11-font-utils xorg-x11-font-utils libxslt java-1.7.0-openjdk python3 rpcgen libssl-dev libcurl4-gnutls-dev libusb-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev libudev-dev)
       if [[ ! $(rpm -qa glibc-static) ]]; then
         deps+=(glibc-static)
         deps_pkg+=(glibc-static)
