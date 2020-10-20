@@ -102,11 +102,11 @@ case "${DISTRO}" in
     #  fi
     #  perl_pkg=(perl-JSON perl-XML-Parser perl perl-Parse-Yapp)
     #  ;;
-    #*)
-    #  deps+=(g++ mkfontscale mkfontdir bdftopcf xsltproc java python3)
-    #  deps_pkg+=(g++ xfonts-utils xfonts-utils xfonts-utils xsltproc default-jre python3)
-    #  perl_pkg=(libjson-perl libxml-parser-perl perl libparse-yapp-perl)
-    #  ;;
+    *)
+      deps+=(g++ mkfontscale mkfontdir bdftopcf xsltproc java python3)
+      deps_pkg+=(g++ xfonts-utils xfonts-utils xfonts-utils xsltproc default-jre python3)
+      perl_pkg=(libjson-perl libxml-parser-perl perl libparse-yapp-perl)
+      ;;
 esac
 
 # project specific dependencies
