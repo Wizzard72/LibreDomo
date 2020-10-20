@@ -1,10 +1,11 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 # Copyright (C) 2009-2016 Stephan Raue (stephan@openelec.tv)
-# Copyright (C) 2017-present Team LibreELEC (https://libreelec.tv)
+# Copyright (C) 2017-2020 Team LibreELEC (https://libreelec.tv)
+# Copyright (C) 2020-present Team LibreDOMO (https://libredomo.todo)
 
 PKG_NAME="ncurses"
-PKG_VERSION="6.1-20181215"
-PKG_SHA256="08b07c3e792961f300829512c283d5fefc0b1c421a57b76922c3d13303ed677d"
+PKG_VERSION="6.2-20201017"
+PKG_SHA256="2e9426f1e9508a2700713887f9085302b91897c8a6dfa33c0e9a982d7154274e"
 PKG_LICENSE="MIT"
 PKG_SITE="http://www.gnu.org/software/ncurses/"
 PKG_URL="http://invisible-mirror.net/archives/ncurses/current/ncurses-$PKG_VERSION.tgz"
