@@ -4,7 +4,7 @@
 
 PKG_NAME="alsa-utils"
 PKG_VERSION="1.2.4"
-PKG_SHA256="ff19ae48c22938de7a491bdb39db74a2eee2546013f39bf1a86185e426f921aa"
+PKG_SHA256="048d0e5f39ebf148354d6eb55eb2a207c100ea4448e2b8812c8e59cda4ed5245"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.alsa-project.org/"
 PKG_URL="https://github.com/alsa-project/alsa-utils/releases/tag/v$PKG_VERSION"
