@@ -59,6 +59,7 @@ PKG_CONFIGURE_OPTS_TARGET="--without-ada \
                            --disable-echo \
                            --disable-warnings \
                            --disable-home-terminfo \
+                           --disable-leaks \
                            --disable-assertions"
 
 PKG_CONFIGURE_OPTS_HOST="--enable-termcap \
