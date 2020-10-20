@@ -4,7 +4,7 @@
 
 PKG_NAME="popt"
 PKG_VERSION="1.16"
-PKG_SHA256="e728ed296fe9f069a0e005003c3d6b2dde3d9cad453422a10d6558616d304cc8"
+PKG_SHA256="13c34f4af1d389668dd2018a816d4a526aaede6a37f5de80d7be1eec1564f820"
 PKG_LICENSE="GPL"
 PKG_SITE="http://rpm5.org/files/popt/"
 PKG_URL="http://rpm5.org/files/popt/$PKG_NAME-$PKG_VERSION.tar.gz"
