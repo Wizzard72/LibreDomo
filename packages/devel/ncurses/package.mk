@@ -15,52 +15,53 @@ PKG_LONGDESC="A library is a free software emulation of curses in System V Relea
 # causes some segmentation fault's (dialog) when compiled with gcc's link time optimization.
 PKG_BUILD_FLAGS="+pic"
 
-PKG_CONFIGURE_OPTS_TARGET="--without-ada \
-                           --without-cxx \
-                           --without-cxx-binding \
-                           --disable-db-install \
-                           --without-manpages \
-                           --without-progs \
-                           --without-tests \
-                           --without-shared \
-                           --with-normal \
-                           --without-debug \
-                           --without-profile \
-                           --without-termlib \
-                           --without-ticlib \
-                           --without-gpm \
-                           --without-dbmalloc \
-                           --without-dmalloc \
-                           --disable-rpath \
-                           --disable-database \
-                           --with-fallbacks=linux,screen,xterm,xterm-color,dumb \
-                           --with-termpath=/storage/.config/termcap \
-                           --disable-big-core \
-                           --enable-termcap \
-                           --enable-getcap \
-                           --disable-getcap-cache \
-                           --enable-symlinks \
-                           --disable-bsdpad \
-                           --without-rcs-ids \
-                           --enable-ext-funcs \
-                           --disable-const \
-                           --enable-no-padding \
-                           --disable-sigwinch \
-                           --enable-pc-files \
-                           --with-pkg-config-libdir=/usr/lib/pkgconfig \
-                           --disable-tcap-names \
-                           --without-develop \
-                           --disable-hard-tabs \
-                           --disable-xmc-glitch \
-                           --disable-hashmap \
-                           --disable-safe-sprintf \
-                           --disable-scroll-hints \
-                           --disable-widec \
-                           --disable-echo \
-                           --disable-warnings \
-                           --disable-home-terminfo \
-                           --disable-leaks \
-                           --disable-assertions"
+PKG_CONFIGURE_OPTS_TARGET=""
+#PKG_CONFIGURE_OPTS_TARGET="--without-ada \
+#                           --without-cxx \
+#                           --without-cxx-binding \
+#                           --disable-db-install \
+#                           --without-manpages \
+#                           --without-progs \
+#                           --without-tests \
+#                           --without-shared \
+#                           --with-normal \
+#                           --without-debug \
+#                           --without-profile \
+#                           --without-termlib \
+#                           --without-ticlib \
+#                           --without-gpm \
+#                           --without-dbmalloc \
+#                           --without-dmalloc \
+#                           --disable-rpath \
+#                           --disable-database \
+#                           --with-fallbacks=linux,screen,xterm,xterm-color,dumb \
+#                           --with-termpath=/storage/.config/termcap \
+#                           --disable-big-core \
+#                           --enable-termcap \
+#                           --enable-getcap \
+#                           --disable-getcap-cache \
+#                           --enable-symlinks \
+#                           --disable-bsdpad \
+#                           --without-rcs-ids \
+#                           --enable-ext-funcs \
+#                           --disable-const \
+#                           --enable-no-padding \
+#                           --disable-sigwinch \
+#                           --enable-pc-files \
+#                           --with-pkg-config-libdir=/usr/lib/pkgconfig \
+#                           --disable-tcap-names \
+#                           --without-develop \
+#                           --disable-hard-tabs \
+#                           --disable-xmc-glitch \
+#                           --disable-hashmap \
+#                           --disable-safe-sprintf \
+#                           --disable-scroll-hints \
+#                           --disable-widec \
+#                           --disable-echo \
+#                           --disable-warnings \
+#                           --disable-home-terminfo \
+#                           --disable-leaks \
+#                           --disable-assertions"
 
 PKG_CONFIGURE_OPTS_HOST="--enable-termcap \
                          --with-termlib \
