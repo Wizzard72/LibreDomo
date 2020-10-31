@@ -16,9 +16,16 @@ PKG_LONGDESC="A library is a free software emulation of curses in System V Relea
 PKG_BUILD_FLAGS="+pic"
 
 
-PKG_CONFIGURE_OPTS_TARGET="--without-ada \
-                            --with-pkg-config-libdir=/usr/lib/pkgconfig \
-                            --disable-assertions"
+PKG_CONFIGURE_OPTS_TARGET="--prefix=/usr                \
+            --host=$LFS_TGT              \
+            --build=$(./config.guess)    \
+            --mandir=/usr/share/man      \
+            --with-manpage-format=normal \
+            --with-shared                \
+            --without-debug              \
+            --without-ada                \
+            --without-normal             \
+            --enable-widec"
 
 #PKG_CONFIGURE_OPTS_TARGET="--without-ada \
 #                           --without-cxx \
