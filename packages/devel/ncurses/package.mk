@@ -47,7 +47,7 @@ PKG_CONFIGURE_OPTS_TARGET="--without-ada \
 #                           --enable-no-padding \
 #                           --disable-sigwinch \
 #                           --enable-pc-files \
-#                           --with-pkg-config-libdir=/usr/lib/pkgconfig \
+                           --with-pkg-config-libdir=/usr/lib/pkgconfig \
 #                           --disable-tcap-names \
 #                           --without-develop \
 #                           --disable-hard-tabs \
