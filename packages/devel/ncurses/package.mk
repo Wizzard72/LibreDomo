@@ -15,8 +15,7 @@ PKG_LONGDESC="A library is a free software emulation of curses in System V Relea
 # causes some segmentation fault's (dialog) when compiled with gcc's link time optimization.
 PKG_BUILD_FLAGS="+pic"
 
-PKG_CONFIGURE_OPTS_TARGET=""
-#PKG_CONFIGURE_OPTS_TARGET="--without-ada \
+PKG_CONFIGURE_OPTS_TARGET="--without-ada \
 #                           --without-cxx \
 #                           --without-cxx-binding \
 #                           --disable-db-install \
@@ -61,7 +60,7 @@ PKG_CONFIGURE_OPTS_TARGET=""
 #                           --disable-warnings \
 #                           --disable-home-terminfo \
 #                           --disable-leaks \
-#                           --disable-assertions"
+                           --disable-assertions"
 
 PKG_CONFIGURE_OPTS_HOST="--enable-termcap \
                          --with-termlib \
